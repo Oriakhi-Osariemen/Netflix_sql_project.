@@ -10,10 +10,10 @@ Below, you’ll find a detailed summary of the project’s purpose, challenges a
 
 ## Objectives
 
-Examine the distribution of content types (Movies vs. TV Shows).
-Determine the most frequent ratings for both movies and TV shows.
-Analyze content by release year, country, and duration.
-Explore and categorize content using specific criteria and keywords.
+1. Examine the distribution of content types (Movies vs. TV Shows).
+2. Determine the most frequent ratings for both movies and TV shows.
+3. Analyze content by release year, country, and duration.
+4. Explore and categorize content using specific criteria and keywords.
 
 
 
