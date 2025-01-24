@@ -15,6 +15,8 @@ Below, you’ll find a detailed summary of the project’s purpose, challenges a
 3. Analyze content by release year, country, and duration.
 4. Explore and categorize content using specific criteria and keywords.
 
+## Data Set
+Source: https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download
 
 
 
