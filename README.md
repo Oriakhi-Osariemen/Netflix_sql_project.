@@ -7,3 +7,17 @@
 This project focuses on performing an in-depth analysis of Netflix’s movie and TV show data using SQL. 
 The objective is to derive actionable insights and address key business questions based on the dataset. 
 Below, you’ll find a detailed summary of the project’s purpose, challenges addressed, solutions implemented, insights uncovered, and final conclusions.
+
+## Objectives
+
+Examine the distribution of content types (Movies vs. TV Shows).
+Determine the most frequent ratings for both movies and TV shows.
+Analyze content by release year, country, and duration.
+Explore and categorize content using specific criteria and keywords.
+
+
+
+
+
+
+
