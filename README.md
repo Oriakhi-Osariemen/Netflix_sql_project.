@@ -15,11 +15,33 @@ Below, you’ll find a detailed summary of the project’s purpose, challenges a
 3. Analyze content by release year, country, and duration.
 4. Explore and categorize content using specific criteria and keywords.
 
-## Data Set
+## DataSet
 Source: https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download
 
+## Schema 
+
+CREATE TABLE Netflix 
+(	
+	show_id	VARCHAR (6),
+	type 	VARCHAR (10) ,
+	title 	VARCHAR (150),
+	director VARCHAR (208),
+	casts	VARCHAR (1000),
+	country	VARCHAR (150),
+	date_added	VARCHAR (50),
+	release_year	INT,
+	rating VARCHAR (10),	
+	duration VARCHAR(15),
+	listed_in	VARCHAR (100),
+	description	VARCHAR (250)	
+);
 
 
-
-
-
+## Business Problem 
+1. Count the number of Movies vs TV Shows
+SELECT 
+	type, 
+	COUNT(*) AS Total_content 
+FROM netflix
+GROUP BY type; 
+Objective: Determine the distribution of content types on Netflix.
