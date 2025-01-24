@@ -20,8 +20,9 @@ Source: https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download
 
 ## Schema 
 
+
 CREATE TABLE Netflix 
-(	
+(
 	show_id	VARCHAR (6),
 	type 	VARCHAR (10) ,
 	title 	VARCHAR (150),
@@ -39,9 +40,11 @@ CREATE TABLE Netflix
 
 ## Business Problem 
 1. Count the number of Movies vs TV Shows
+   
 SELECT 
 	type, 
 	COUNT(*) AS Total_content 
 FROM netflix
-GROUP BY type; 
+GROUP BY type;
+
 Objective: Determine the distribution of content types on Netflix.
