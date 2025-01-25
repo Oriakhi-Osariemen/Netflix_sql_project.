@@ -41,9 +41,9 @@ CREATE TABLE Netflix
 ## Business Problem 
 1. Count the number of Movies vs TV Shows
    
-SELECT 
-    type,
-    COUNT(*)
-FROM netflix
-GROUP BY 1;
+-SELECT 
+    -type,
+    -COUNT(*)
+-FROM netflix
+-GROUP BY 1;
 Objective: Determine the distribution of content types on Netflix.
