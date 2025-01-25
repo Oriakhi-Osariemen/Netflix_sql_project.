@@ -45,5 +45,5 @@ SELECT
     COUNT(*)
 FROM netflix
 GROUP BY 1;
-sql
+```
 Objective: Determine the distribution of content types on Netflix.
