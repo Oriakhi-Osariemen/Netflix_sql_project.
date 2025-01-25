@@ -19,8 +19,7 @@ Below, you’ll find a detailed summary of the project’s purpose, challenges a
 Source: https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download
 
 ## Schema 
-
-
+```sql
 CREATE TABLE Netflix 
 (
 	show_id	VARCHAR (6),
@@ -35,15 +34,16 @@ CREATE TABLE Netflix
 	duration VARCHAR(15),
 	listed_in	VARCHAR (100),
 	description	VARCHAR (250)	
-);
-
+); 
+```
 
 ## Business Problem 
 1. Count the number of Movies vs TV Shows
-   
--SELECT 
-    -type,
-    -COUNT(*)
--FROM netflix
--GROUP BY 1;
+```sql  
+SELECT 
+    type,
+    COUNT(*)
+FROM netflix
+GROUP BY 1;
+sql
 Objective: Determine the distribution of content types on Netflix.
