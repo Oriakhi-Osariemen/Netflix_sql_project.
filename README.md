@@ -228,7 +228,7 @@ content as 'Good
 
 1. Content Distribution: The dataset showcases a diverse mix of movies and TV shows, spanning various ratings and genres.
 2. Common Ratings: Analyzing the most frequent ratings offers valuable insights into the target audience and content preferences.
-3. Geographical Insights: The data highlights the top content-producing countries and emphasizes India’s significant contribution to Netflix’s library.
+3. Geographical Insights: The data highlights the top content-producing countries and emphasizes United Kingdom significant contribution to Netflix’s library.
 4. Content Categorization: Grouping content based on specific keywords provides a deeper understanding of the types of content available on the platform.
    
 Overall, this analysis offers a detailed overview of Netflix’s content portfolio, delivering valuable insights that can guide content strategy and decision-making.
